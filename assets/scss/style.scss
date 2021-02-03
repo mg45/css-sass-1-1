@@ -1,0 +1,18 @@
+/*----------------------------------------
+  Import variables.scss
+----------------------------------------*/
+@import './variables.scss';
+$colors: $color-twitter, $color-behance, $color-facebook, $color-vimeo, $color-snapchat, $color-airbnb, $color-amazon, $color-android, $color-stack-overflow, $color-ubuntu, $color-github, $color-javascript;
+
+@for $i from 1 through length($colors) {
+    i:nth-child(#{length($colors)}n+#{$i}) {
+        color: nth($colors, $i)
+    }
+}
+
+/*----------------------------------------
+  Default Styles
+----------------------------------------*/
+i {
+    font-size: $brand-size-xl;
+}

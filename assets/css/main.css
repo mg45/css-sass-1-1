@@ -1,0 +1,65 @@
+/*----------------------------------------
+  Import variables.scss
+----------------------------------------*/
+/*----------------------------------------
+  Brand-Colors
+----------------------------------------*/
+/*----------------------------------------
+  Brand-Icon-Sizes
+----------------------------------------*/
+i:nth-child(12n+1) {
+  color: #1da1f2;
+}
+
+i:nth-child(12n+2) {
+  color: #1769ff;
+}
+
+i:nth-child(12n+3) {
+  color: #3b5998;
+}
+
+i:nth-child(12n+4) {
+  color: #1ab7ea;
+}
+
+i:nth-child(12n+5) {
+  color: #fffc00;
+}
+
+i:nth-child(12n+6) {
+  color: #fd5c63;
+}
+
+i:nth-child(12n+7) {
+  color: #ff9900;
+}
+
+i:nth-child(12n+8) {
+  color: #a4c639;
+}
+
+i:nth-child(12n+9) {
+  color: #f48024;
+}
+
+i:nth-child(12n+10) {
+  color: #dd4814;
+}
+
+i:nth-child(12n+11) {
+  color: #333;
+}
+
+i:nth-child(12n+12) {
+  color: #f7df1e;
+}
+
+/*----------------------------------------
+  Default Styles
+----------------------------------------*/
+i {
+  font-size: 6em;
+}
+
+/*# sourceMappingURL=main.css.map */
